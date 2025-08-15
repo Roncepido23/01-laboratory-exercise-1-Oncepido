@@ -26,5 +26,10 @@ namespace _01_laboratory_exercise_1_Oncepido
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
