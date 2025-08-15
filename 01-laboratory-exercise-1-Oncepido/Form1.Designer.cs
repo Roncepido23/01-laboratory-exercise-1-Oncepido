@@ -35,11 +35,11 @@
             this.textBox2_Student_Firstname = new System.Windows.Forms.TextBox();
             this.textBox3_Student_Middlename = new System.Windows.Forms.TextBox();
             this.textBox4_Student_Lastname = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.label3_FirstName = new System.Windows.Forms.Label();
+            this.label4_MiddleName = new System.Windows.Forms.Label();
+            this.label5_LastName = new System.Windows.Forms.Label();
             this.textBoxAddress = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.label6_Address = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1_Age = new System.Windows.Forms.TextBox();
             this.textBox2_ContactNumber = new System.Windows.Forms.TextBox();
@@ -104,36 +104,36 @@
             this.textBox4_Student_Lastname.Size = new System.Drawing.Size(304, 20);
             this.textBox4_Student_Lastname.TabIndex = 7;
             // 
-            // label3
+            // label3_FirstName
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(30, 159);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(106, 20);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "First Name :";
+            this.label3_FirstName.AutoSize = true;
+            this.label3_FirstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3_FirstName.Location = new System.Drawing.Point(30, 159);
+            this.label3_FirstName.Name = "label3_FirstName";
+            this.label3_FirstName.Size = new System.Drawing.Size(106, 20);
+            this.label3_FirstName.TabIndex = 8;
+            this.label3_FirstName.Text = "First Name :";
             // 
-            // label4
+            // label4_MiddleName
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(30, 220);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(122, 20);
-            this.label4.TabIndex = 9;
-            this.label4.Text = "Middle Name :";
+            this.label4_MiddleName.AutoSize = true;
+            this.label4_MiddleName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4_MiddleName.Location = new System.Drawing.Point(30, 220);
+            this.label4_MiddleName.Name = "label4_MiddleName";
+            this.label4_MiddleName.Size = new System.Drawing.Size(122, 20);
+            this.label4_MiddleName.TabIndex = 9;
+            this.label4_MiddleName.Text = "Middle Name :";
             // 
-            // label5
+            // label5_LastName
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(30, 285);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(105, 20);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "Last Name :";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.label5_LastName.AutoSize = true;
+            this.label5_LastName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5_LastName.Location = new System.Drawing.Point(30, 285);
+            this.label5_LastName.Name = "label5_LastName";
+            this.label5_LastName.Size = new System.Drawing.Size(105, 20);
+            this.label5_LastName.TabIndex = 10;
+            this.label5_LastName.Text = "Last Name :";
+            this.label5_LastName.Click += new System.EventHandler(this.label5_Click);
             // 
             // textBoxAddress
             // 
@@ -143,15 +143,15 @@
             this.textBoxAddress.Size = new System.Drawing.Size(514, 149);
             this.textBoxAddress.TabIndex = 11;
             // 
-            // label6
+            // label6_Address
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(30, 462);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(85, 20);
-            this.label6.TabIndex = 12;
-            this.label6.Text = "Address :";
+            this.label6_Address.AutoSize = true;
+            this.label6_Address.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6_Address.Location = new System.Drawing.Point(30, 462);
+            this.label6_Address.Name = "label6_Address";
+            this.label6_Address.Size = new System.Drawing.Size(85, 20);
+            this.label6_Address.TabIndex = 12;
+            this.label6_Address.Text = "Address :";
             // 
             // button1
             // 
@@ -210,11 +210,11 @@
             this.Controls.Add(this.textBox2_ContactNumber);
             this.Controls.Add(this.textBox1_Age);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label6_Address);
             this.Controls.Add(this.textBoxAddress);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label5_LastName);
+            this.Controls.Add(this.label4_MiddleName);
+            this.Controls.Add(this.label3_FirstName);
             this.Controls.Add(this.textBox4_Student_Lastname);
             this.Controls.Add(this.textBox3_Student_Middlename);
             this.Controls.Add(this.textBox2_Student_Firstname);
@@ -238,11 +238,11 @@
         private System.Windows.Forms.TextBox textBox2_Student_Firstname;
         private System.Windows.Forms.TextBox textBox3_Student_Middlename;
         private System.Windows.Forms.TextBox textBox4_Student_Lastname;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label3_FirstName;
+        private System.Windows.Forms.Label label4_MiddleName;
+        private System.Windows.Forms.Label label5_LastName;
         private System.Windows.Forms.TextBox textBoxAddress;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label6_Address;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox1_Age;
         private System.Windows.Forms.TextBox textBox2_ContactNumber;

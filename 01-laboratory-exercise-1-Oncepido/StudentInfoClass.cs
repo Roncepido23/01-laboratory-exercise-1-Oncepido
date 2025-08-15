@@ -55,6 +55,10 @@ namespace _01_laboratory_exercise_1_Oncepido
             return ContactNo;
         }       
 
+        public static string GetLabelProgram(string Program)
+        {
+            return Program;
+        }   
 
         public static long GetStudentNo(long StudentNo)
         {

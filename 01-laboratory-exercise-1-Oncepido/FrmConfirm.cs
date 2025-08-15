@@ -14,9 +14,42 @@ namespace _01_laboratory_exercise_1_Oncepido
     public partial class FrmConfirm : Form
     {
 
-        private DelegateText DelProgram, DelLastName, DelMiddleName, DelAddress;
+        private DelegateString DelProgram, DelLastName, DelMiddleName, DelAddress;
 
         private DelegateNumber DelNumAge, DelNumContactNo, DelStudNo;
+
+
+
+        private void FrmConfirm_Load_1(object sender, EventArgs e)
+        {
+            {
+                DelProgram = new DelegateString(GetLabelProgram);
+                DelLastName = new DelegateString(GetLastName);
+                DelFirstName = new DelegateString(GetFirstName);
+                DelMiddleName = new DelegateString(GetMiddleName);
+                DelAddress = new DelegateString(GetAddress);
+                DelNumAge = new DelegateNumber(GetAge);
+                DelNumContactNo = new DelegateNumber(GetContactNo);
+                DelStudNo = new DelegateNumber(GetStudentNo);
+
+                
+            }
+
+        private void buttonSubmit_Click(object sender, EventArgs e)
+        {
+            DialogResult = DialogResult.OK;
+            Close();
+        }
+        
+
+        private void label1_StudentNumber_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        
+
+
 
         public FrmConfirm()
         {
@@ -24,10 +57,7 @@ namespace _01_laboratory_exercise_1_Oncepido
         }
 
 
-        private void FrmConfirm_Load(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }
 

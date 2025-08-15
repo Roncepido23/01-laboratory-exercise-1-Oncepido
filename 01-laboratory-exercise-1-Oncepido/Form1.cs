@@ -34,15 +34,22 @@ namespace _01_laboratory_exercise_1_Oncepido
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             StudentInfoClass.FirstName = textBox2_Student_Firstname.Text;
+
             StudentInfoClass.LastName = textBox4_Student_Lastname.Text; 
+
             StudentInfoClass.MiddleName = textBox3_Student_Middlename.Text;
+
             StudentInfoClass.Address = textBoxAddress.Text;
+
             StudentInfoClass.Program = comboBox2.SelectedItem.ToString();
+
             StudentInfoClass.Age = Convert.ToInt64(textBox1_Age.Text);  
+
             StudentInfoClass.ContactNo = Convert.ToInt64(textBox2_ContactNumber.Text);
 
-          
+
         }
 
         private void label7_Click(object sender, EventArgs e)
