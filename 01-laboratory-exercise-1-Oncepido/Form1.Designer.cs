@@ -38,9 +38,13 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxAddress = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.textBox1_Age = new System.Windows.Forms.TextBox();
+            this.textBox2_ContactNumber = new System.Windows.Forms.TextBox();
+            this.label7_Age = new System.Windows.Forms.Label();
+            this.label8_ContactNumber = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBox1_StudentID
@@ -131,19 +135,19 @@
             this.label5.Text = "Last Name :";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
-            // textBox1
+            // textBoxAddress
             // 
-            this.textBox1.Location = new System.Drawing.Point(26, 399);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(514, 149);
-            this.textBox1.TabIndex = 11;
+            this.textBoxAddress.Location = new System.Drawing.Point(34, 496);
+            this.textBoxAddress.Multiline = true;
+            this.textBoxAddress.Name = "textBoxAddress";
+            this.textBoxAddress.Size = new System.Drawing.Size(514, 149);
+            this.textBoxAddress.TabIndex = 11;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(30, 376);
+            this.label6.Location = new System.Drawing.Point(30, 462);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(85, 20);
             this.label6.TabIndex = 12;
@@ -152,7 +156,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(237, 582);
+            this.button1.Location = new System.Drawing.Point(217, 669);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(91, 33);
             this.button1.TabIndex = 13;
@@ -160,15 +164,54 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // textBox1_Age
+            // 
+            this.textBox1_Age.Location = new System.Drawing.Point(22, 395);
+            this.textBox1_Age.Name = "textBox1_Age";
+            this.textBox1_Age.Size = new System.Drawing.Size(249, 20);
+            this.textBox1_Age.TabIndex = 14;
+            // 
+            // textBox2_ContactNumber
+            // 
+            this.textBox2_ContactNumber.Location = new System.Drawing.Point(312, 395);
+            this.textBox2_ContactNumber.Name = "textBox2_ContactNumber";
+            this.textBox2_ContactNumber.Size = new System.Drawing.Size(251, 20);
+            this.textBox2_ContactNumber.TabIndex = 15;
+            // 
+            // label7_Age
+            // 
+            this.label7_Age.AutoSize = true;
+            this.label7_Age.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7_Age.Location = new System.Drawing.Point(18, 372);
+            this.label7_Age.Name = "label7_Age";
+            this.label7_Age.Size = new System.Drawing.Size(51, 20);
+            this.label7_Age.TabIndex = 16;
+            this.label7_Age.Text = "Age :";
+            this.label7_Age.Click += new System.EventHandler(this.label7_Click);
+            // 
+            // label8_ContactNumber
+            // 
+            this.label8_ContactNumber.AutoSize = true;
+            this.label8_ContactNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8_ContactNumber.Location = new System.Drawing.Point(308, 372);
+            this.label8_ContactNumber.Name = "label8_ContactNumber";
+            this.label8_ContactNumber.Size = new System.Drawing.Size(149, 20);
+            this.label8_ContactNumber.TabIndex = 17;
+            this.label8_ContactNumber.Text = "Contact Number :";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Pink;
             this.ClientSize = new System.Drawing.Size(584, 761);
+            this.Controls.Add(this.label8_ContactNumber);
+            this.Controls.Add(this.label7_Age);
+            this.Controls.Add(this.textBox2_ContactNumber);
+            this.Controls.Add(this.textBox1_Age);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxAddress);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -198,9 +241,13 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxAddress;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox textBox1_Age;
+        private System.Windows.Forms.TextBox textBox2_ContactNumber;
+        private System.Windows.Forms.Label label7_Age;
+        private System.Windows.Forms.Label label8_ContactNumber;
     }
 }
 
