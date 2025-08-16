@@ -29,6 +29,7 @@ namespace _01_laboratory_exercise_1_Oncepido
         }
         private void button1_Submit_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Registration Submitted Succesfully");
 
             DialogResult = DialogResult.OK;
             Close();
