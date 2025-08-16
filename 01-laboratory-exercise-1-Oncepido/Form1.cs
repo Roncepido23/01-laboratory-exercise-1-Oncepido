@@ -49,7 +49,32 @@ namespace _01_laboratory_exercise_1_Oncepido
 
             StudentInfoClass.ContactNo = Convert.ToInt64(textBox2_ContactNumber.Text);
 
+            StudentInfoClass.StudentNo = Convert.ToInt64(textBox1_StudentID.Text);
 
+            FrmConfirm confirmForm = new FrmConfirm();
+
+            confirmForm.ShowDialog();
+
+
+            //Clearing Registration Form
+            if (confirmForm.ShowDialog() == DialogResult.OK)
+            {
+                  textBox2_Student_Firstname.Clear();
+
+                  textBox4_Student_Lastname.Clear();
+
+                  textBox3_Student_Middlename.Clear();
+
+                  textBoxAddress.Clear();
+
+                  comboBox2.SelectedIndex = -1;
+
+                  textBox1_Age.Clear();
+
+                  textBox2_ContactNumber.Clear();
+
+                  textBox1_StudentID.Clear();
+            }
         }
 
         private void label7_Click(object sender, EventArgs e)

@@ -40,7 +40,7 @@
             this.label5_LastName = new System.Windows.Forms.Label();
             this.textBoxAddress = new System.Windows.Forms.TextBox();
             this.label6_Address = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.button1_nxt = new System.Windows.Forms.Button();
             this.textBox1_Age = new System.Windows.Forms.TextBox();
             this.textBox2_ContactNumber = new System.Windows.Forms.TextBox();
             this.label7_Age = new System.Windows.Forms.Label();
@@ -137,7 +137,7 @@
             // 
             // textBoxAddress
             // 
-            this.textBoxAddress.Location = new System.Drawing.Point(34, 496);
+            this.textBoxAddress.Location = new System.Drawing.Point(34, 494);
             this.textBoxAddress.Multiline = true;
             this.textBoxAddress.Name = "textBoxAddress";
             this.textBoxAddress.Size = new System.Drawing.Size(514, 149);
@@ -153,16 +153,16 @@
             this.label6_Address.TabIndex = 12;
             this.label6_Address.Text = "Address :";
             // 
-            // button1
+            // button1_nxt
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(217, 669);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(91, 33);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "Next";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1_nxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1_nxt.Location = new System.Drawing.Point(217, 669);
+            this.button1_nxt.Name = "button1_nxt";
+            this.button1_nxt.Size = new System.Drawing.Size(91, 33);
+            this.button1_nxt.TabIndex = 13;
+            this.button1_nxt.Text = "Next";
+            this.button1_nxt.UseVisualStyleBackColor = true;
+            this.button1_nxt.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1_Age
             // 
@@ -204,12 +204,12 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Pink;
-            this.ClientSize = new System.Drawing.Size(584, 761);
+            this.ClientSize = new System.Drawing.Size(584, 749);
             this.Controls.Add(this.label8_ContactNumber);
             this.Controls.Add(this.label7_Age);
             this.Controls.Add(this.textBox2_ContactNumber);
             this.Controls.Add(this.textBox1_Age);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.button1_nxt);
             this.Controls.Add(this.label6_Address);
             this.Controls.Add(this.textBoxAddress);
             this.Controls.Add(this.label5_LastName);
@@ -243,7 +243,7 @@
         private System.Windows.Forms.Label label5_LastName;
         private System.Windows.Forms.TextBox textBoxAddress;
         private System.Windows.Forms.Label label6_Address;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button1_nxt;
         private System.Windows.Forms.TextBox textBox1_Age;
         private System.Windows.Forms.TextBox textBox2_ContactNumber;
         private System.Windows.Forms.Label label7_Age;
