@@ -57,7 +57,7 @@ namespace _01_laboratory_exercise_1_Oncepido
                 label7_ContactNumber.Text = DelNumContactNo(ContactNo).ToString();
                 label1_StudentNumber.Text = DelStudNo(StudentNo).ToString();
 
-
+                    
             }
 
 
